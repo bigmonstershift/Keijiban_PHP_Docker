@@ -1,5 +1,4 @@
 ---- Create TitleTable ----
-CREATE DATABASE IF NOT EXISTS keijiban_db;
 DROP TABLE IF EXISTS title_table;
 create table title_table
 (
