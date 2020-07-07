@@ -4,6 +4,7 @@ MYSQL_PID=`docker ps -a | grep mysql | cut -d" " -f1`
 GIP='【IPアドレス】'
 
 docker start ${MYSQL_PID}
+sleep 5
 docker exec -it ${MYSQL_PID} sh -c "/bin/bash /docker-entrypoint-initdb.d/init-database.sh"
 
 sed -i -e "s/【MySQLコンテナID】/${MYSQL_PID}/" ./php/index.php

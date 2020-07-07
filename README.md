@@ -20,6 +20,7 @@ systemctl start docker
 ## プロセス起動
 docker-compose up -dを実行した後
 ```
+start.shのIPアドレスにWebサーバのIPアドレスを記入する
 /bin/bash start.sh
 ```
 
