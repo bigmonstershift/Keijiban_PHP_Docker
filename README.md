@@ -10,10 +10,18 @@
 curl -L https://github.com/docker/compose/releases/download/1.6.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 SELinuxを無効化する。
 setenfoce 0
-docker-compose up -d
+chmod +x /usr/local/bin/docker-compose
+/usr/local/bin/docker-compose up -d
+
+(Dockerも要インストール)
+yum -y install docker
+systemctl start docker
 ```
 ## プロセス起動
 docker-compose up -dを実行した後
+```
+/bin/bash start.sh
+```
 
 - mysqlコンテナ
 	- initスクリプトを実行し初期テーブルを作成する
