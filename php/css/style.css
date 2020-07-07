@@ -1,0 +1,114 @@
+/************************/
+/*スレタイ・コメント部分*/
+/************************/
+body {
+    font-size:22px;
+}
+
+.sleti_area {
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom:50px;
+    margin-top:50px;
+    padding:20px;
+    white-space: nowrap;
+    overflow:scroll;
+    height:350px;
+}
+
+.slti {
+	margin:0;
+}
+
+
+.comment_area {
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom:50px;
+    padding:20px;
+    font-size:20px;
+}
+
+.comment_header {
+    margin:0;
+    font-size:15px;
+}
+
+.comment {
+    margin-top:0;
+    margin-bottom:30px;
+}
+
+/************************/
+/*スレタイ・コメント部分*/
+/************************/
+.explain_block {
+    text-align:center;
+    margin-bottom:30px;
+    margin-bottom:30px;
+}
+
+.explain_list {
+    text-align:left;
+}
+
+/************************************************************************/
+/*                               POST部分                               */
+/*input系は要素定義が特殊でuser-agent stylesheetを呼ぶので個別に指定する*/
+/************************************************************************/
+.input_com_block {
+    text-align:center;
+}
+
+.input_name {
+    margin-bottom:20px;
+    font-size:20px;
+    padding:5px;
+}
+
+.input_fname {
+    margin-bottom:20px;
+    font-size:20px;
+}
+
+.input_comment {
+    margin-bottom:20px;
+    font-size:20px;
+    padding:5px;
+    width:70%;
+    height:300px;
+}
+
+.input_com_button {
+    margin-bottom:20px;
+    font-size:20px;
+    width:70%;
+}
+
+.make_sled_area {
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom:50px;
+    padding:20px;
+}
+
+.make_sled_block {
+    text-align:center;
+}
+
+.make_sled_input_sleti {
+    margin-bottom:20px;
+    font-size:20px;
+    padding:5px;
+    width:70%;
+}
+
+.button_sle {
+    margin-bottom:20px;
+    font-size:20px;
+    width:70%;
+}
+
+.backtop {
+    text-align:center;
+}
